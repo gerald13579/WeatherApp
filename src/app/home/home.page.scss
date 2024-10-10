@@ -1,3 +1,7 @@
+ion-content {
+  --background: #191919;
+}
+
 #container {
   text-align: center;
 
@@ -24,4 +28,18 @@
 
 #container a {
   text-decoration: none;
+}
+
+.cardStyle {
+  border-radius: 20px;
+  --ion-background-color: secondary;
+}
+
+span {
+  color: white;
+  font-weight: 300;
+}
+
+#locationIcon {
+  color: #f6b844;
 }
